@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: black;
+}
+
+img {
+    width: 100%;
+}
+
+.boxs {
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    height: 1080px;
+    background: #000000;
+    margin: auto;
+    margin-top: 20rem;
+}
+
+.boxs-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+}
+
+.boxs-right {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+}
+
+.foods-name-price-comon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.price-comon {
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    gap: 1.2rem;
+}
+
+.box {
+    width: 100%;
+    height: 50%;
+    border: 6px solid #02b1fc;
+    border-top: 12px solid #02b1fc;
+    border-left: 12px solid #02b1fc;
+    border-radius: 1rem;
+    flex: 1;
+    position: absolute;
+    top: 0%;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0.5rem;
+    width: 100%;
+    height: 50%;
+    display: block;
+}
+
+.title {
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+.title h2 {
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 3.1rem;
+    font-family: arial black;
+}
+
+.title h2 span {
+    font-size: 5.5rem;
+}
+
+.title h2 span:last-child {
+    margin-left: 1px;
+}
+
+.small-size {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.foods-name-price {
+
+    gap: 125px;
+}
+
+.foods {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.price {
+
+    margin-right: 32rem;
+}
+
+.foods span {
+    margin: 7px;
+    font-size: 1.5rem;
+}
+
+.price span {
+    color: #f3f3b6;
+}
+
+.img-div {
+    width: 430px;
+    position: absolute;
+    top: 50px;
+    right: 41px;
+}
+
+.title p {
+    color: #f3f3b6;
+    font-size: 1.4rem;
+}
+
+.red-text {
+    color: red;
+}
+
+/* 2-box*/
+.box-2 {
+    width: 100%;
+    height: 50%;
+    border: 6px solid #02b1fc;
+    border-left: 12px solid #02b1fc;
+    border-bottom: 12px solid #02b1fc;
+    border-radius: 1rem;
+    flex: 1;
+    position: absolute;
+    top: 50%;
+    overflow: hidden;
+}
+
+.title p {
+    margin-bottom: 0.5rem;
+}
+
+.price2 {
+
+    margin-right: 26.2rem;
+
+    gap: 2.3rem;
+}
+
+.price2 span {
+    color: #f3f3b6;
+}
+
+.foods-2 {
+    gap: 1rem;
+}
+
+.foods-name-price2 {
+
+    gap: 1rem;
+}
+
+.img-div2 {
+    width: 423px;
+    position: absolute;
+    top: -85px;
+    right: 15px;
+}
+
+
+
+/* 3-box */
+.box-3 {
+    width: 100%;
+    height: 71%;
+    border: 6px solid #02b1fc;
+    border-top: 12px solid #02b1fc;
+    border-right: 12px solid #02b1fc;
+    border-radius: 1rem;
+    flex: 1;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+}
+
+.price3 {
+
+    margin-right: 30rem;
+}
+
+.foods-name-price3 {
+
+    gap: 10rem;
+}
+
+.img-div3 {
+    width: 440px;
+    position: absolute;
+    top: -16px;
+    right: -31px;
+}
+
+/* 4-box */
+
+.title4 {
+    margin-left: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 8.5px;
+}
+
+.title4 h2 {
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 3.9rem;
+}
+
+.title4 h2 span {
+    font-size: 5.5rem;
+}
+
+.price4 {
+
+    margin-right: -318px;
+
+    color: #f3f3b6;
+}
+
+.foods-name-price4 {
+
+    gap: 260px;
+}
+
+.img-div4 {
+    width: 471px;
+    position: absolute;
+    top: -92px;
+    left: -22px;
+}
+
+/* 5-box */
+
+.box-5 {
+    width: 100%;
+    height: 29%;
+    border: 6px solid #02b1fc;
+    border-right: 12px solid #02b1fc;
+    border-bottom: 12px solid #02b1fc;
+    border-radius: 1rem;
+    overflow: hidden;
+    flex: 1;
+    position: absolute;
+    top: 71%;
+}
+
+.container5 {
+    margin: 0.8rem;
+}
+
+
+.title5 {
+    margin-bottom: 8px;
+}
+
+.foods-name-price5 {
+    gap: 26.7rem;
+}
+
+.foods5 {
+    gap: 10px;
+}
+
+.price5 {
+    width: 200px;
+}
+
+/* .img-div5 {
+    width: 600px;
+    position: absolute;
+    top: -134px;
+    right: -129px;
+} */
+.img-div5 {
+    width: 399px;
+    height: 398px;
+    position: absolute;
+    top: -118px;
+    right: 7px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* container-3-4 */
+.container-3 {
+    width: 100%;
+    height: 55%;
+}
+
+.container-4 {
+    width: 100%;
+    height: 40%;
+}
+
+/* price  */
+.price-comon span {
+    font-size: 1.4rem;
+    color: #f3f3b6;
+}
+
+/*  5.99*/
+.price-in-one {
+    position: absolute;
+    top: 0rem;
+    right: 12rem;
+    font-size: 4rem;
+    font-family: cursive;
+    -webkit-text-stroke: 2px blue;
+    color: #f3f3b6;
+}
